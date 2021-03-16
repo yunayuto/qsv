@@ -1,0 +1,19 @@
+{
+  "name": "qsv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunayuto/qsv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yunayuto/qsv/issues"
+  },
+  "homepage": "https://github.com/yunayuto/qsv#readme"
+}
