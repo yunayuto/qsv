@@ -5,7 +5,7 @@ services:
     image: qsv
     build:
       args: 
-        FFMPEG_VERSION: n4.3.1
+        FFMPEG_VERSION: n4.3.1 . -t ffmpeg
       context: .
       dockerfile: ./Dockerfile
     environment:
