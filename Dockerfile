@@ -1,5 +1,4 @@
 FROM ubuntu:focal
-ARG FFMPEG_VERSION
 ENV DEBIAN_FRONTEND=noninteractive
 
 WORKDIR /opt/ffmpeg
@@ -8,7 +7,7 @@ RUN set -x && \
     apt-get install -y \
       git make g++ yasm \
       libfdk-aac-dev libva-dev libmfx-dev intel-media-va-driver-non-free && \
-    git clone https://github.com/FFmpeg/FFmpeg --depth=1 -b $FFMPEG_VERSION . && \
+    git clone https://github.com/FFmpeg/FFmpeg.git && \
     ./configure \
       --disable-ffplay \
       --disable-debug \
